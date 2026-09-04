@@ -195,7 +195,7 @@ eksctl create cluster --name cluster-name  \
 ```bash
 eksctl create cluster --name test \
   --region us-east-1 \
-  --node-type t2.medium
+  --node-type c7i-flex.large
 ```
 
 #### After creating cluster — update kubeconfig
